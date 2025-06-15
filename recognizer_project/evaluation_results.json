@@ -1,0 +1,128 @@
+{
+  "success_rate": 0.05263157894736842,
+  "average_scores": {
+    "accuracy": 0.97,
+    "completeness": 1.0,
+    "structure": 0.93,
+    "sequence": 1.0,
+    "overall": 0.96,
+    "avg_recognition_time": 5.109,
+    "total_recognition_time": 5.109,
+    "min_recognition_time": 5.109,
+    "max_recognition_time": 5.109
+  },
+  "detailed_results": [
+    {
+      "filename": "1.jpg",
+      "error": "识别结果缺少 lines 字段"
+    },
+    {
+      "filename": "10.jpg",
+      "error": "识别结果缺少 lines 字段"
+    },
+    {
+      "filename": "11.jpg",
+      "error": "识别结果缺少 lines 字段"
+    },
+    {
+      "filename": "12.jpg",
+      "error": "识别结果缺少 lines 字段"
+    },
+    {
+      "filename": "13.jpg",
+      "recognition": {
+        "lines": [
+          {
+            "speaker": "我",
+            "content": "你好！姑姑很久没见你,你爸今天早上回从天津回来,顺便又去打工上班去了,多辛苦,姑姑问问你的情况,女孩子自古以来是爸爸的小棉袄,会疼爱父母的,你也25岁了,该谈对象了,年龄正好,花季少女,不要每天上班下班玩手机,妈妈培上你,给你做好饭,爸爸在大同打工,下班回家自己不论什么吃上一口,你想想他们多辛苦,老了又分居,他们应该享受晚年了,你妈妈又有高血压,你自己也好好想想吧,像姐姐学习,姐姐姐夫每天忙的早出晚归,你不要死水一潭,什么都不想,不懂,聪明的孩子自己工资都存起来,不乱花。以后有了家自己小家庭很富有,,应该清醒了,该干什么干什么！岁数正当,姑姑说你,是为你,不要先烦,,",
+            "type": "text",
+            "timestamp": "18:14"
+          },
+          {
+            "speaker": "我",
+            "content": "姑姑让我给你转发的",
+            "type": "text",
+            "timestamp": ""
+          }
+        ]
+      },
+      "evaluation": {
+        "accuracy_score": 0.97,
+        "completeness_score": 1.0,
+        "structure_score": 0.93,
+        "sequence_score": 1.0,
+        "overall_score": 0.96,
+        "error_analysis": {
+          "missing_messages": [
+            "发送者信息"
+          ],
+          "wrong_speakers": [],
+          "wrong_types": [],
+          "text_errors": []
+        },
+        "suggestions": [
+          "增加发件人和收件人的名字以提高结构完整性"
+        ]
+      },
+      "recognition_time": 5.109,
+      "valid_message_count": 2,
+      "invalid_message_count": 0
+    },
+    {
+      "filename": "2.jpg",
+      "error": "识别结果缺少 lines 字段"
+    },
+    {
+      "filename": "25.jpg",
+      "error": "识别结果缺少 lines 字段"
+    },
+    {
+      "filename": "26.jpg",
+      "error": "识别结果缺少 lines 字段"
+    },
+    {
+      "filename": "27.jpg",
+      "error": "识别结果缺少 lines 字段"
+    },
+    {
+      "filename": "28.jpg",
+      "error": "识别结果缺少 lines 字段"
+    },
+    {
+      "filename": "29.jpg",
+      "error": "识别结果缺少 lines 字段"
+    },
+    {
+      "filename": "3.jpg",
+      "error": "识别结果缺少 lines 字段"
+    },
+    {
+      "filename": "30.jpg",
+      "error": "识别结果缺少 lines 字段"
+    },
+    {
+      "filename": "4.jpg",
+      "error": "识别结果缺少 lines 字段"
+    },
+    {
+      "filename": "5.jpg",
+      "error": "识别结果缺少 lines 字段"
+    },
+    {
+      "filename": "6.jpg",
+      "error": "识别结果缺少 lines 字段"
+    },
+    {
+      "filename": "7.jpg",
+      "error": "识别结果缺少 lines 字段"
+    },
+    {
+      "filename": "8.jpg",
+      "error": "识别结果缺少 lines 字段"
+    },
+    {
+      "filename": "9.jpg",
+      "error": "识别结果缺少 lines 字段"
+    }
+  ]
+}
