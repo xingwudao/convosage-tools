@@ -1,0 +1,14 @@
+bubble_detector:
+  model_path: ./models/yolov8n.pt
+  threshold: 0.5
+  light_model: runs\detect\light_bubble_train\weights\best.pt
+  dark_model: runs\detect\dark_bubble_train_1\weights\best.pt
+ocr:
+  model: paddleocr
+  version: 5
+  use_textline_orientation: true
+  lang: ["ch", "en"]
+  text_det_thresh: 0.2 # 降低检测阈值（认0.3），允许更多候选文本区域
+  text_det_box_thresh: 0.2  # 文本框置信度阈值（补充此参数，默认0.5，需降低）
+  text_det_unclip_ratio: 2.5  # 扩大检测框范围（默认2.0），避免漏检边缘文字
+  text_recognition_batch_size: 6
